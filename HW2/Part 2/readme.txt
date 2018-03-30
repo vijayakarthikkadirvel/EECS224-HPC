@@ -1,7 +1,6 @@
 Mandelbrot implementation using MPI
 
-Mandelbrot is a classical problem which requires communication between multiple pixels. For this problem, I used MPI as my parallel 
-execution model.  
+Mandelbrot is a classical problem which requires communication between multiple pixels. For this problem, I used MPI as my parallel execution model.  
 
 To run it:
 1.) make 
