@@ -1,7 +1,13 @@
 PARALLEL ALGORITHM FOR FINDING BETWEENNESS CENTRALITY USING BRANDES ALGORITHM:
 
 
-In this project, We present the efficient parallel algorithm to find the betweenness centrality using brandes method. Brandes algorithm[1] presents the most efficient algorithm with time Complexity of O(nm) for unweighted graph and Space Complexity of O(n+m), where n is the number of vertices and m is the number of edges. Making it parallel reduces the complexity from O(nm) to O(nm/p) for an unweighted graph, where p is the number of processors. We used two different parallel programming models, OpenMP and MPI to parallelize the algorithm. Our first algorithm uses a proper data-processor mapping, a novel edge-numbering strategy and a new triple array data structure recording the shortest path for eliminating conflicts to access the shared memory [2]. This can be done using OpenMP but this parallel model has few drawbacks which can be eliminated by MPI. Speedup achieved is significant using MPI rather than OpenMP. 
+In this project, We present the efficient parallel algorithm to find the betweenness centrality using brandes method. Brandes 
+algorithm[1] presents the most efficient algorithm with time Complexity of O(nm) for unweighted graph and Space Complexity of O(n+m),
+where n is the number of vertices and m is the number of edges. Making it parallel reduces the complexity from O(nm) to O(nm/p) for an 
+unweighted graph, where p is the number of processors. We used two different parallel programming models, OpenMP and MPI to parallelize 
+the algorithm. Our first algorithm uses a proper data-processor mapping, a novel edge-numbering strategy and a new triple array data 
+structure recording the shortest path for eliminating conflicts to access the shared memory [2]. This can be done using OpenMP but this 
+parallel model has few drawbacks which can be eliminated by MPI. Speedup achieved is significant using MPI rather than OpenMP. 
 
 
 There are 2 folders
