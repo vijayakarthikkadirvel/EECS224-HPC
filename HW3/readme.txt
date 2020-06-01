@@ -7,7 +7,6 @@ During this implementation, I used many different optimisation techniques,
 -> sequential reduction
 -> First add before reduce
 -> Loop unrolling
--> Algorithm Cascading
 
 
 To run it:
